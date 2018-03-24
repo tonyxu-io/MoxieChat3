@@ -1,0 +1,3 @@
+# Ignore Moxtra Chat SDK
+ChatSDK.framework
+ChatSDKResource.bundle

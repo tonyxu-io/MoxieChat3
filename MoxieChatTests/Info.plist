@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>You can share photos from your local Photo Library with other team members in your group chat.</string>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>Your Microphone is needed to join Voice IP meeting.</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>You can share your location with other team members in your group chat.</string>
+	<key>NSLocationUsageDescription</key>
+	<string>You can share your location with other team members in your group chat.</string>
+	<key>NSContactsUsageDescription</key>
+	<string></string>
+	<key>NSCameraUsageDescription</key>
+	<string>You can use your camera to take photos and videos, and share them with other team members in your group chat.</string>
+	<key>NSCalendarsUsageDescription</key>
+	<string>Your Meeting schedule will be saved to your Calendar.</string>
+	<key>NSBluetoothPeripheralUsageDescription</key>
+	<string>You can do Airdrop sharing, access Bluetooth headset, keyboard...etc.</string>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>en</string>
+	<key>CFBundleExecutable</key>
+	<string>$(EXECUTABLE_NAME)</string>
+	<key>CFBundleIdentifier</key>
+	<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>$(PRODUCT_NAME)</string>
+	<key>CFBundlePackageType</key>
+	<string>BNDL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.0</string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>CFBundleVersion</key>
+	<string>1</string>
+</dict>
+</plist>

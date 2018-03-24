@@ -1,0 +1,719 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B3A51FFC20466945002028B6 /* ChatSDKResource.bundle in Resources */ = {isa = PBXBuildFile; fileRef = B3A51FFA20466945002028B6 /* ChatSDKResource.bundle */; };
+		B3CD66821FBB9F6B0041D7D8 /* meetcalling.caf in Resources */ = {isa = PBXBuildFile; fileRef = B3CD66811FBB9F6B0041D7D8 /* meetcalling.caf */; };
+		B3FF5742206607C700553491 /* ChatSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3FF5741206607C700553491 /* ChatSDK.framework */; };
+		BE50058B1C1583BF004CC3F5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BE50058A1C1583BF004CC3F5 /* main.m */; };
+		BE50058E1C1583BF004CC3F5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BE50058D1C1583BF004CC3F5 /* AppDelegate.m */; };
+		BE5005911C1583BF004CC3F5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE5005901C1583BF004CC3F5 /* ViewController.m */; };
+		BE5005941C1583BF004CC3F5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE5005921C1583BF004CC3F5 /* Main.storyboard */; };
+		BE5005991C1583BF004CC3F5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE5005971C1583BF004CC3F5 /* LaunchScreen.storyboard */; };
+		BE5005A41C1583BF004CC3F5 /* MoxieChatTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BE5005A31C1583BF004CC3F5 /* MoxieChatTests.m */; };
+		BE5005AF1C1583BF004CC3F5 /* MoxieChatUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BE5005AE1C1583BF004CC3F5 /* MoxieChatUITests.m */; };
+		BE731B981C15C59000426548 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE731B7B1C15C59000426548 /* Accelerate.framework */; };
+		BE731B991C15C59000426548 /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE731B7C1C15C59000426548 /* AddressBook.framework */; };
+		BE731B9A1C15C59000426548 /* AddressBookUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE731B7D1C15C59000426548 /* AddressBookUI.framework */; };
+		BE731B9B1C15C59000426548 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE731B7E1C15C59000426548 /* AssetsLibrary.framework */; };
+		BE731B9C1C15C59000426548 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE731B7F1C15C59000426548 /* AudioToolbox.framework */; };
+		BE731B9D1C15C59000426548 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE731B801C15C59000426548 /* AVFoundation.framework */; };
+		BE731B9E1C15C59000426548 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE731B811C15C59000426548 /* CFNetwork.framework */; };
+		BE731B9F1C15C59000426548 /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE731B821C15C59000426548 /* CoreBluetooth.framework */; };
+		BE731BA01C15C59000426548 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE731B831C15C59000426548 /* CoreFoundation.framework */; };
+		BE731BA11C15C59000426548 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE731B841C15C59000426548 /* CoreGraphics.framework */; };
+		BE731BA21C15C59000426548 /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE731B851C15C59000426548 /* CoreImage.framework */; };
+		BE731BA31C15C59000426548 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE731B861C15C59000426548 /* CoreLocation.framework */; };
+		BE731BA41C15C59000426548 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE731B871C15C59000426548 /* CoreMedia.framework */; };
+		BE731BA51C15C59000426548 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE731B881C15C59000426548 /* CoreTelephony.framework */; };
+		BE731BA61C15C59000426548 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE731B891C15C59000426548 /* CoreText.framework */; };
+		BE731BA71C15C59000426548 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE731B8A1C15C59000426548 /* CoreVideo.framework */; };
+		BE731BA81C15C59000426548 /* EventKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE731B8B1C15C59000426548 /* EventKit.framework */; };
+		BE731BA91C15C59000426548 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE731B8C1C15C59000426548 /* Foundation.framework */; };
+		BE731BAA1C15C59000426548 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE731B8D1C15C59000426548 /* ImageIO.framework */; };
+		BE731BAB1C15C59000426548 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE731B8E1C15C59000426548 /* MapKit.framework */; };
+		BE731BAC1C15C59000426548 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE731B8F1C15C59000426548 /* MediaPlayer.framework */; };
+		BE731BAD1C15C59000426548 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE731B901C15C59000426548 /* MessageUI.framework */; };
+		BE731BAE1C15C59000426548 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE731B911C15C59000426548 /* MobileCoreServices.framework */; };
+		BE731BAF1C15C59000426548 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE731B921C15C59000426548 /* OpenGLES.framework */; };
+		BE731BB01C15C59000426548 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE731B931C15C59000426548 /* QuartzCore.framework */; };
+		BE731BB11C15C59000426548 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE731B941C15C59000426548 /* Security.framework */; };
+		BE731BB21C15C59000426548 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE731B951C15C59000426548 /* StoreKit.framework */; };
+		BE731BB31C15C59000426548 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE731B961C15C59000426548 /* SystemConfiguration.framework */; };
+		BE731BB41C15C59000426548 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE731B971C15C59000426548 /* UIKit.framework */; };
+		BE731BB91C15C6E600426548 /* libc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = BE731BB51C15C6E600426548 /* libc++.dylib */; };
+		BE731BBA1C15C6E600426548 /* libstdc++.6.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = BE731BB61C15C6E600426548 /* libstdc++.6.dylib */; };
+		BE731BBB1C15C6E600426548 /* libxml2.2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = BE731BB71C15C6E600426548 /* libxml2.2.dylib */; };
+		BE731BBC1C15C6E600426548 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = BE731BB81C15C6E600426548 /* libz.dylib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BE5005A01C1583BF004CC3F5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BE50057E1C1583BF004CC3F5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BE5005851C1583BF004CC3F5;
+			remoteInfo = MoxieChat;
+		};
+		BE5005AB1C1583BF004CC3F5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BE50057E1C1583BF004CC3F5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BE5005851C1583BF004CC3F5;
+			remoteInfo = MoxieChat;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B32CB8CD1F9E8C4C00B39547 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Main.strings"; sourceTree = "<group>"; };
+		B32CB8CE1F9E8C4C00B39547 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		B32CB8CF1F9E8C8900B39547 /* nl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = nl; path = nl.lproj/Main.strings; sourceTree = "<group>"; };
+		B32CB8D01F9E8C8900B39547 /* nl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = nl; path = nl.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		B32DA3761FB26BA200536327 /* MoxieChat.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MoxieChat.entitlements; sourceTree = "<group>"; };
+		B3A51FF5204668CF002028B6 /* ChatSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ChatSDK.framework; path = Moxtra_Chat_Meet_SDK/MoxtraConversationSDK.sdk/ChatSDK.framework; sourceTree = "<group>"; };
+		B3A51FF6204668CF002028B6 /* ChatSDKResource.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = ChatSDKResource.bundle; path = Moxtra_Chat_Meet_SDK/MoxtraConversationSDK.sdk/ChatSDKResource.bundle; sourceTree = "<group>"; };
+		B3A51FFA20466945002028B6 /* ChatSDKResource.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = ChatSDKResource.bundle; sourceTree = "<group>"; };
+		B3CD66811FBB9F6B0041D7D8 /* meetcalling.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = meetcalling.caf; sourceTree = "<group>"; };
+		B3FF5741206607C700553491 /* ChatSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ChatSDK.framework; sourceTree = "<group>"; };
+		BE5005861C1583BF004CC3F5 /* MoxieChat3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MoxieChat3.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE50058A1C1583BF004CC3F5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BE50058C1C1583BF004CC3F5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BE50058D1C1583BF004CC3F5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BE50058F1C1583BF004CC3F5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		BE5005901C1583BF004CC3F5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		BE5005931C1583BF004CC3F5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BE5005981C1583BF004CC3F5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BE50059A1C1583BF004CC3F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BE50059F1C1583BF004CC3F5 /* MoxieChat3Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MoxieChat3Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE5005A31C1583BF004CC3F5 /* MoxieChatTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MoxieChatTests.m; sourceTree = "<group>"; };
+		BE5005A51C1583BF004CC3F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BE5005AA1C1583BF004CC3F5 /* MoxieChat3UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MoxieChat3UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE5005AE1C1583BF004CC3F5 /* MoxieChatUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MoxieChatUITests.m; sourceTree = "<group>"; };
+		BE5005B01C1583BF004CC3F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BE731B7B1C15C59000426548 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/Accelerate.framework; sourceTree = DEVELOPER_DIR; };
+		BE731B7C1C15C59000426548 /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/AddressBook.framework; sourceTree = DEVELOPER_DIR; };
+		BE731B7D1C15C59000426548 /* AddressBookUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBookUI.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/AddressBookUI.framework; sourceTree = DEVELOPER_DIR; };
+		BE731B7E1C15C59000426548 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/AssetsLibrary.framework; sourceTree = DEVELOPER_DIR; };
+		BE731B7F1C15C59000426548 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/AudioToolbox.framework; sourceTree = DEVELOPER_DIR; };
+		BE731B801C15C59000426548 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/AVFoundation.framework; sourceTree = DEVELOPER_DIR; };
+		BE731B811C15C59000426548 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/CFNetwork.framework; sourceTree = DEVELOPER_DIR; };
+		BE731B821C15C59000426548 /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/CoreBluetooth.framework; sourceTree = DEVELOPER_DIR; };
+		BE731B831C15C59000426548 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/CoreFoundation.framework; sourceTree = DEVELOPER_DIR; };
+		BE731B841C15C59000426548 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		BE731B851C15C59000426548 /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/CoreImage.framework; sourceTree = DEVELOPER_DIR; };
+		BE731B861C15C59000426548 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/CoreLocation.framework; sourceTree = DEVELOPER_DIR; };
+		BE731B871C15C59000426548 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/CoreMedia.framework; sourceTree = DEVELOPER_DIR; };
+		BE731B881C15C59000426548 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/CoreTelephony.framework; sourceTree = DEVELOPER_DIR; };
+		BE731B891C15C59000426548 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/CoreText.framework; sourceTree = DEVELOPER_DIR; };
+		BE731B8A1C15C59000426548 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/CoreVideo.framework; sourceTree = DEVELOPER_DIR; };
+		BE731B8B1C15C59000426548 /* EventKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EventKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/EventKit.framework; sourceTree = DEVELOPER_DIR; };
+		BE731B8C1C15C59000426548 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		BE731B8D1C15C59000426548 /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/ImageIO.framework; sourceTree = DEVELOPER_DIR; };
+		BE731B8E1C15C59000426548 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/MapKit.framework; sourceTree = DEVELOPER_DIR; };
+		BE731B8F1C15C59000426548 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/MediaPlayer.framework; sourceTree = DEVELOPER_DIR; };
+		BE731B901C15C59000426548 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/MessageUI.framework; sourceTree = DEVELOPER_DIR; };
+		BE731B911C15C59000426548 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/MobileCoreServices.framework; sourceTree = DEVELOPER_DIR; };
+		BE731B921C15C59000426548 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/OpenGLES.framework; sourceTree = DEVELOPER_DIR; };
+		BE731B931C15C59000426548 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		BE731B941C15C59000426548 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
+		BE731B951C15C59000426548 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/StoreKit.framework; sourceTree = DEVELOPER_DIR; };
+		BE731B961C15C59000426548 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/SystemConfiguration.framework; sourceTree = DEVELOPER_DIR; };
+		BE731B971C15C59000426548 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		BE731BB51C15C6E600426548 /* libc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libc++.dylib"; path = "Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/usr/lib/libc++.dylib"; sourceTree = DEVELOPER_DIR; };
+		BE731BB61C15C6E600426548 /* libstdc++.6.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libstdc++.6.dylib"; path = "Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/usr/lib/libstdc++.6.dylib"; sourceTree = DEVELOPER_DIR; };
+		BE731BB71C15C6E600426548 /* libxml2.2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.2.dylib; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/usr/lib/libxml2.2.dylib; sourceTree = DEVELOPER_DIR; };
+		BE731BB81C15C6E600426548 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/usr/lib/libz.dylib; sourceTree = DEVELOPER_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BE5005831C1583BF004CC3F5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE731BA01C15C59000426548 /* CoreFoundation.framework in Frameworks */,
+				BE731B991C15C59000426548 /* AddressBook.framework in Frameworks */,
+				BE731BA31C15C59000426548 /* CoreLocation.framework in Frameworks */,
+				BE731BBC1C15C6E600426548 /* libz.dylib in Frameworks */,
+				BE731B9F1C15C59000426548 /* CoreBluetooth.framework in Frameworks */,
+				BE731BAB1C15C59000426548 /* MapKit.framework in Frameworks */,
+				BE731BAF1C15C59000426548 /* OpenGLES.framework in Frameworks */,
+				BE731BAA1C15C59000426548 /* ImageIO.framework in Frameworks */,
+				BE731BAC1C15C59000426548 /* MediaPlayer.framework in Frameworks */,
+				BE731BBB1C15C6E600426548 /* libxml2.2.dylib in Frameworks */,
+				BE731B9E1C15C59000426548 /* CFNetwork.framework in Frameworks */,
+				BE731BA41C15C59000426548 /* CoreMedia.framework in Frameworks */,
+				BE731BA91C15C59000426548 /* Foundation.framework in Frameworks */,
+				B3FF5742206607C700553491 /* ChatSDK.framework in Frameworks */,
+				BE731BA51C15C59000426548 /* CoreTelephony.framework in Frameworks */,
+				BE731B9A1C15C59000426548 /* AddressBookUI.framework in Frameworks */,
+				BE731BB01C15C59000426548 /* QuartzCore.framework in Frameworks */,
+				BE731BB21C15C59000426548 /* StoreKit.framework in Frameworks */,
+				BE731BB91C15C6E600426548 /* libc++.dylib in Frameworks */,
+				BE731B981C15C59000426548 /* Accelerate.framework in Frameworks */,
+				BE731BBA1C15C6E600426548 /* libstdc++.6.dylib in Frameworks */,
+				BE731BB11C15C59000426548 /* Security.framework in Frameworks */,
+				BE731BA81C15C59000426548 /* EventKit.framework in Frameworks */,
+				BE731BB41C15C59000426548 /* UIKit.framework in Frameworks */,
+				BE731B9B1C15C59000426548 /* AssetsLibrary.framework in Frameworks */,
+				BE731B9D1C15C59000426548 /* AVFoundation.framework in Frameworks */,
+				BE731BB31C15C59000426548 /* SystemConfiguration.framework in Frameworks */,
+				BE731BA61C15C59000426548 /* CoreText.framework in Frameworks */,
+				BE731BA71C15C59000426548 /* CoreVideo.framework in Frameworks */,
+				BE731BA11C15C59000426548 /* CoreGraphics.framework in Frameworks */,
+				BE731BAD1C15C59000426548 /* MessageUI.framework in Frameworks */,
+				BE731BAE1C15C59000426548 /* MobileCoreServices.framework in Frameworks */,
+				BE731B9C1C15C59000426548 /* AudioToolbox.framework in Frameworks */,
+				BE731BA21C15C59000426548 /* CoreImage.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE50059C1C1583BF004CC3F5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE5005A71C1583BF004CC3F5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BE50057D1C1583BF004CC3F5 = {
+			isa = PBXGroup;
+			children = (
+				B3A51FFA20466945002028B6 /* ChatSDKResource.bundle */,
+				BE731B7A1C15C56B00426548 /* Frameworks */,
+				BE5005881C1583BF004CC3F5 /* MoxieChat */,
+				BE5005A21C1583BF004CC3F5 /* MoxieChatTests */,
+				BE5005AD1C1583BF004CC3F5 /* MoxieChatUITests */,
+				BE5005871C1583BF004CC3F5 /* Products */,
+				B3FF5741206607C700553491 /* ChatSDK.framework */,
+			);
+			sourceTree = "<group>";
+		};
+		BE5005871C1583BF004CC3F5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BE5005861C1583BF004CC3F5 /* MoxieChat3.app */,
+				BE50059F1C1583BF004CC3F5 /* MoxieChat3Tests.xctest */,
+				BE5005AA1C1583BF004CC3F5 /* MoxieChat3UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BE5005881C1583BF004CC3F5 /* MoxieChat */ = {
+			isa = PBXGroup;
+			children = (
+				B3CD66811FBB9F6B0041D7D8 /* meetcalling.caf */,
+				B32DA3761FB26BA200536327 /* MoxieChat.entitlements */,
+				BE50058C1C1583BF004CC3F5 /* AppDelegate.h */,
+				BE50058D1C1583BF004CC3F5 /* AppDelegate.m */,
+				BE50058F1C1583BF004CC3F5 /* ViewController.h */,
+				BE5005901C1583BF004CC3F5 /* ViewController.m */,
+				BE5005921C1583BF004CC3F5 /* Main.storyboard */,
+				BE5005971C1583BF004CC3F5 /* LaunchScreen.storyboard */,
+				BE50059A1C1583BF004CC3F5 /* Info.plist */,
+				BE5005891C1583BF004CC3F5 /* Supporting Files */,
+			);
+			path = MoxieChat;
+			sourceTree = "<group>";
+		};
+		BE5005891C1583BF004CC3F5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BE50058A1C1583BF004CC3F5 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BE5005A21C1583BF004CC3F5 /* MoxieChatTests */ = {
+			isa = PBXGroup;
+			children = (
+				BE5005A31C1583BF004CC3F5 /* MoxieChatTests.m */,
+				BE5005A51C1583BF004CC3F5 /* Info.plist */,
+			);
+			path = MoxieChatTests;
+			sourceTree = "<group>";
+		};
+		BE5005AD1C1583BF004CC3F5 /* MoxieChatUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BE5005AE1C1583BF004CC3F5 /* MoxieChatUITests.m */,
+				BE5005B01C1583BF004CC3F5 /* Info.plist */,
+			);
+			path = MoxieChatUITests;
+			sourceTree = "<group>";
+		};
+		BE731B7A1C15C56B00426548 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B3A51FF5204668CF002028B6 /* ChatSDK.framework */,
+				B3A51FF6204668CF002028B6 /* ChatSDKResource.bundle */,
+				BE731BB51C15C6E600426548 /* libc++.dylib */,
+				BE731BB61C15C6E600426548 /* libstdc++.6.dylib */,
+				BE731BB71C15C6E600426548 /* libxml2.2.dylib */,
+				BE731BB81C15C6E600426548 /* libz.dylib */,
+				BE731B7B1C15C59000426548 /* Accelerate.framework */,
+				BE731B7C1C15C59000426548 /* AddressBook.framework */,
+				BE731B7D1C15C59000426548 /* AddressBookUI.framework */,
+				BE731B7E1C15C59000426548 /* AssetsLibrary.framework */,
+				BE731B7F1C15C59000426548 /* AudioToolbox.framework */,
+				BE731B801C15C59000426548 /* AVFoundation.framework */,
+				BE731B811C15C59000426548 /* CFNetwork.framework */,
+				BE731B821C15C59000426548 /* CoreBluetooth.framework */,
+				BE731B831C15C59000426548 /* CoreFoundation.framework */,
+				BE731B841C15C59000426548 /* CoreGraphics.framework */,
+				BE731B851C15C59000426548 /* CoreImage.framework */,
+				BE731B861C15C59000426548 /* CoreLocation.framework */,
+				BE731B871C15C59000426548 /* CoreMedia.framework */,
+				BE731B881C15C59000426548 /* CoreTelephony.framework */,
+				BE731B891C15C59000426548 /* CoreText.framework */,
+				BE731B8A1C15C59000426548 /* CoreVideo.framework */,
+				BE731B8B1C15C59000426548 /* EventKit.framework */,
+				BE731B8C1C15C59000426548 /* Foundation.framework */,
+				BE731B8D1C15C59000426548 /* ImageIO.framework */,
+				BE731B8E1C15C59000426548 /* MapKit.framework */,
+				BE731B8F1C15C59000426548 /* MediaPlayer.framework */,
+				BE731B901C15C59000426548 /* MessageUI.framework */,
+				BE731B911C15C59000426548 /* MobileCoreServices.framework */,
+				BE731B921C15C59000426548 /* OpenGLES.framework */,
+				BE731B931C15C59000426548 /* QuartzCore.framework */,
+				BE731B941C15C59000426548 /* Security.framework */,
+				BE731B951C15C59000426548 /* StoreKit.framework */,
+				BE731B961C15C59000426548 /* SystemConfiguration.framework */,
+				BE731B971C15C59000426548 /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BE5005851C1583BF004CC3F5 /* MoxieChat3 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE5005B31C1583BF004CC3F5 /* Build configuration list for PBXNativeTarget "MoxieChat3" */;
+			buildPhases = (
+				BE5005821C1583BF004CC3F5 /* Sources */,
+				BE5005831C1583BF004CC3F5 /* Frameworks */,
+				BE5005841C1583BF004CC3F5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MoxieChat3;
+			productName = MoxieChat;
+			productReference = BE5005861C1583BF004CC3F5 /* MoxieChat3.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BE50059E1C1583BF004CC3F5 /* MoxieChat3Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE5005B61C1583BF004CC3F5 /* Build configuration list for PBXNativeTarget "MoxieChat3Tests" */;
+			buildPhases = (
+				BE50059B1C1583BF004CC3F5 /* Sources */,
+				BE50059C1C1583BF004CC3F5 /* Frameworks */,
+				BE50059D1C1583BF004CC3F5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BE5005A11C1583BF004CC3F5 /* PBXTargetDependency */,
+			);
+			name = MoxieChat3Tests;
+			productName = MoxieChatTests;
+			productReference = BE50059F1C1583BF004CC3F5 /* MoxieChat3Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BE5005A91C1583BF004CC3F5 /* MoxieChat3UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE5005B91C1583BF004CC3F5 /* Build configuration list for PBXNativeTarget "MoxieChat3UITests" */;
+			buildPhases = (
+				BE5005A61C1583BF004CC3F5 /* Sources */,
+				BE5005A71C1583BF004CC3F5 /* Frameworks */,
+				BE5005A81C1583BF004CC3F5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BE5005AC1C1583BF004CC3F5 /* PBXTargetDependency */,
+			);
+			name = MoxieChat3UITests;
+			productName = MoxieChatUITests;
+			productReference = BE5005AA1C1583BF004CC3F5 /* MoxieChat3UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BE50057E1C1583BF004CC3F5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Ken Yu";
+				TargetAttributes = {
+					BE5005851C1583BF004CC3F5 = {
+						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = 8VCM532KHD;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
+					};
+					BE50059E1C1583BF004CC3F5 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = BE5005851C1583BF004CC3F5;
+					};
+					BE5005A91C1583BF004CC3F5 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = BE5005851C1583BF004CC3F5;
+					};
+				};
+			};
+			buildConfigurationList = BE5005811C1583BF004CC3F5 /* Build configuration list for PBXProject "MoxieChat3" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BE50057D1C1583BF004CC3F5;
+			productRefGroup = BE5005871C1583BF004CC3F5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BE5005851C1583BF004CC3F5 /* MoxieChat3 */,
+				BE50059E1C1583BF004CC3F5 /* MoxieChat3Tests */,
+				BE5005A91C1583BF004CC3F5 /* MoxieChat3UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BE5005841C1583BF004CC3F5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3A51FFC20466945002028B6 /* ChatSDKResource.bundle in Resources */,
+				BE5005991C1583BF004CC3F5 /* LaunchScreen.storyboard in Resources */,
+				B3CD66821FBB9F6B0041D7D8 /* meetcalling.caf in Resources */,
+				BE5005941C1583BF004CC3F5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE50059D1C1583BF004CC3F5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE5005A81C1583BF004CC3F5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BE5005821C1583BF004CC3F5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE5005911C1583BF004CC3F5 /* ViewController.m in Sources */,
+				BE50058E1C1583BF004CC3F5 /* AppDelegate.m in Sources */,
+				BE50058B1C1583BF004CC3F5 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE50059B1C1583BF004CC3F5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE5005A41C1583BF004CC3F5 /* MoxieChatTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE5005A61C1583BF004CC3F5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE5005AF1C1583BF004CC3F5 /* MoxieChatUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BE5005A11C1583BF004CC3F5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BE5005851C1583BF004CC3F5 /* MoxieChat3 */;
+			targetProxy = BE5005A01C1583BF004CC3F5 /* PBXContainerItemProxy */;
+		};
+		BE5005AC1C1583BF004CC3F5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BE5005851C1583BF004CC3F5 /* MoxieChat3 */;
+			targetProxy = BE5005AB1C1583BF004CC3F5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BE5005921C1583BF004CC3F5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BE5005931C1583BF004CC3F5 /* Base */,
+				B32CB8CD1F9E8C4C00B39547 /* zh-Hans */,
+				B32CB8CF1F9E8C8900B39547 /* nl */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BE5005971C1583BF004CC3F5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BE5005981C1583BF004CC3F5 /* Base */,
+				B32CB8CE1F9E8C4C00B39547 /* zh-Hans */,
+				B32CB8D01F9E8C8900B39547 /* nl */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BE5005B11C1583BF004CC3F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BE5005B21C1583BF004CC3F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BE5005B41C1583BF004CC3F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = MoxieChat/MoxieChat.entitlements;
+				COMPRESS_PNG_FILES = YES;
+				DEVELOPMENT_TEAM = 8VCM532KHD;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Moxtra_Chat_Meet_SDK/MoxtraConversationSDK.sdk",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = MoxieChat/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = us.yihan.moxiechat3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BE5005B51C1583BF004CC3F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = MoxieChat/MoxieChat.entitlements;
+				COMPRESS_PNG_FILES = YES;
+				DEVELOPMENT_TEAM = 8VCM532KHD;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Moxtra_Chat_Meet_SDK/MoxtraConversationSDK.sdk",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = MoxieChat/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = us.yihan.moxiechat3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		BE5005B71C1583BF004CC3F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MoxieChatTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.moxtra.MoxieChatTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MoxieChat3.app/MoxieChat3";
+			};
+			name = Debug;
+		};
+		BE5005B81C1583BF004CC3F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MoxieChatTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.moxtra.MoxieChatTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MoxieChat3.app/MoxieChat3";
+			};
+			name = Release;
+		};
+		BE5005BA1C1583BF004CC3F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MoxieChatUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.moxtra.MoxieChatUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MoxieChat;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		BE5005BB1C1583BF004CC3F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MoxieChatUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.moxtra.MoxieChatUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MoxieChat;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BE5005811C1583BF004CC3F5 /* Build configuration list for PBXProject "MoxieChat3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE5005B11C1583BF004CC3F5 /* Debug */,
+				BE5005B21C1583BF004CC3F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BE5005B31C1583BF004CC3F5 /* Build configuration list for PBXNativeTarget "MoxieChat3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE5005B41C1583BF004CC3F5 /* Debug */,
+				BE5005B51C1583BF004CC3F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BE5005B61C1583BF004CC3F5 /* Build configuration list for PBXNativeTarget "MoxieChat3Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE5005B71C1583BF004CC3F5 /* Debug */,
+				BE5005B81C1583BF004CC3F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BE5005B91C1583BF004CC3F5 /* Build configuration list for PBXNativeTarget "MoxieChat3UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE5005BA1C1583BF004CC3F5 /* Debug */,
+				BE5005BB1C1583BF004CC3F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BE50057E1C1583BF004CC3F5 /* Project object */;
+}
